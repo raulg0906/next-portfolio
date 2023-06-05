@@ -23,7 +23,7 @@ function Contact() {
             </div>
             <div className="flex flex-row justify-center mt-5">
                 {links.map((l) =>(
-                    <Link href={l.href}><Image src={l.src} alt={l.alt} className="w-8 mr-4" /></Link>
+                    <Link href={l.href}><Image src={l.src} alt={l.alt} className="w-10 mr-4" /></Link>
                 ) )}
             </div>
         </main>

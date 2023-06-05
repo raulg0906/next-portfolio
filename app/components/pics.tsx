@@ -50,9 +50,9 @@ function Pics() {
                 <Image className="w-8 lg:w-12" src={mysql} alt="mysql" />
                 <p className="text-sm lg:text-base font-bold">MySQL</p>
             </div>
-            <div className=" flex flex-col items-center mr-4 ml-2 lg:mr-10">
-                <Image className="w-7  mt-3 lg:w-10" src={expo} alt="mysql" />
-                <p className="text-sm lg:text-base font-bold mt-1">EXPO</p>
+            <div className=" flex flex-col items-center mr-4 lg:mr-10">
+                <Image className="w-7 lg:mt-2 lg:w-10" src={expo} alt="mysql" />
+                <p className="text-sm lg:text-base font-bold mt-1">Expo</p>
             </div>
         </div>
         <div className=" flex items-center justify-center mt-7">
