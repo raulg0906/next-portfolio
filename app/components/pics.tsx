@@ -33,8 +33,8 @@ function Pics() {
               <p className="text-sm lg:text-base font-bold">CSS3</p>
          </div>
             <div className="flex flex-col items-center">
-                <Image className="w-8 lg:w-12 mt-1" src={tailwind} alt="Tailwind" />
-                <p className="text-sm mt-2 lg:text-base font-bold">TailwindCSS</p>
+                <Image className="w-8 lg:w-12" src={tailwind} alt="Tailwind" />
+                <p className="text-sm lg:text-base font-bold">TailwindCSS</p>
             </div>
         </div>
         <div className="flex flex-row justify-center min-w-full items-center mt-5">
