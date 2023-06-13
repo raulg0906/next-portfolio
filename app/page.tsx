@@ -2,6 +2,7 @@
 
 import { PageWrapper } from './page-wrapper'
 import Myinfo from "./components/Myinfo";
+import { Analytics } from '@vercel/analytics/react';
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Myinfo />
       </div>
       </PageWrapper>
+      <Analytics />
     </main>
   )
 }
